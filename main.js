@@ -6,6 +6,11 @@
 // the base url for the netflix genre
 urlbase = 'https://www.netflix.com/browse/genre/'
 
+// normalise convert the string to lowercase and remove accents
+function normalise(str) {
+  return str.normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase()
+}
+
 // create a VueJS instance
 var app = new Vue({
   el: '#app',
@@ -18,11 +23,11 @@ var app = new Vue({
       // convert this.search to lowercase inserting .* between each characters
       // for example, if this.search is "sf" it will be converted to "s.*f"
       // this will be used to match the search query with the browsedata
-      regexsearch = this.search.toLowerCase().split('').join('.*')
+      regexsearch = normalise(this.search).split(' ').join('.*')
       // return the browsedata that match the regexsearch
       return this.browsedata.filter((item) => {
-        return item.category.toLowerCase().match(regexsearch)
-      })      
+        return normalise(item.category).toLowerCase().match(regexsearch)
+      })
     }
   },
   methods: {

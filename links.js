@@ -1,6 +1,7 @@
 // The category codes
 browsedata =
 [
+  // ----------------------
   {
     category: "Comédies d’action",
     code: 43040
@@ -724,5 +725,247 @@ browsedata =
   {
     category: "Films d’horreur avec des zombies",
     code: 75405
+  },
+  // ----------------------
+  {
+    category: "Documentaires : Religions",
+    code: 10005
+  },
+  {
+    category: "Thrillers : Étranger",
+    code: 10306
+  },
+  {
+    category: "Action & Adventure : Films d'action étrangers",
+    code: 11828
+  },
+  {
+    category: "Action & Adventure",
+    code: 1365
+  },
+  {
+    category: "SF & Fantasy",
+    code: 1492
+  },
+  {
+    category: "Drames : Etranger",
+    code: 2150
+  },
+  {
+    category: "Classic Movies",
+    code: 31574
+  },
+  {
+    category: "Classic Movies : Films étrangers",
+    code: 32473
+  },
+  {
+    category: "Comédies : Comédies étrangères",
+    code: 4426
+  },
+  {
+    category: "Documentaires : Étranger",
+    code: 5161
+  },
+  {
+    category: "Drames : Drames judiciares",
+    code: 528582748
+  },
+  {
+    category: "Jeunesse et films familiaux : 5 à 7 ans",
+    code: 5455
+  },
+  {
+    category: "Thrillers : Thrillers psychologiques",
+    code: 5505
+  },
+  {
+    category: "Jeunesse et films familiaux : 8 à 10 ans",
+    code: 561
+  },
+  {
+    category: "Drames",
+    code: 5763
+  },
+  {
+    category: "LGBTQ+",
+    code: 5977
+  },
+  {
+    category: "Jeunesse et films familiaux : 2 à 4 ans",
+    code: 6218
+  },
+  {
+    category: "SF & Fantasy : Étranger",
+    code: 6485
+  },
+  {
+    category: "Comédies",
+    code: 6548
+  },
+  {
+    category: "Jeunesse et films familiaux : 0 à 2 ans",
+    code: 6796
+  },
+  {
+    category: "Documentaires",
+    code: 6839
+  },
+  {
+    category: "Jeunesse et films familiaux : 11 à 12 ans",
+    code: 6962
+  },
+  {
+    category: "Animé",
+    code: 7424
+  },
+  {
+    category: "Films cultes",
+    code: 7627
+  },
+  {
+    category: "Jeunesse et films familiaux",
+    code: 783
+  },
+  {
+    category: "LGBTQ+ : Étranger",
+    code: 8243
+  },
+  {
+    category: "Séries télé",
+    code: 83
+  },
+  {
+    category: "Horreur : Étranger",
+    code: 8654
+  },
+  {
+    category: "Horreur",
+    code: 8711
+  },
+  {
+    category: "Thrillers",
+    code: 8933
+  },
+  // ----------------------
+    {
+    category: "Films de détournement d'avion",
+    code: 20541
+  },
+  {
+    category: "Seulement sur Netflix",
+    code: 839338
+  },
+  {
+    category: "Tous les films",
+    code: 34399
+  },
+  {
+    category: "Films indépendants",
+    code: 7077
+  },
+  {
+    category: "Films internationaux",
+    code: 78367
+  },
+  {
+    category: "Films et séries taïwanais",
+    code: 434295
+  },
+  {
+    category: "Films et séries thaïlandais",
+    code: 107570
+  },
+  {
+    category: "Films turcs",
+    code: 1133133
+  },
+  {
+    category: "Films étrangers romantiques",
+    code: 7153
+  },
+  {
+    category: "Films romantiques",
+    code: 8883
+  },
+  {
+    category: "Films sportifs",
+    code: 4370
+  },
+  {
+    category: "Musique",
+    code: 1701
+  },
+  {
+    category: "Concerts rock et pop",
+    code: 3278
+  },
+  {
+    category: "Danse et concerts urbains",
+    code: 9472
+  },
+  {
+    category: "Jazz et easy listening",
+    code: 10271
+  },
+  {
+    category: "Musique country et western / folk",
+    code: 1105
+  },
+  {
+    category: "Films britanniques de Noël pour enfants et familles",
+    code: 1527064
+  },
+  {
+    category: "Films canadiens de Noël pour enfants et familles",
+    code: 1721544
+  },
+  {
+    category: "Films de Noël bonne humeur jeunesse et famille",
+    code: 1475066
+  },
+  {
+    category: "Films de Noël jeunesse et famille",
+    code: 1474017
+  },
+  {
+    category: "Films de Noël loufoques jeunesse et famille",
+    code: 1475071
+  },
+  {
+    category: "Films de Noël pour enfants et familles des années 1990",
+    code: 1476024
+  },
+  {
+    category: "Films de Noël pour la famille et les 11-12 ans",
+    code: 1477206
+  },
+  {
+    category: "Films de Noël pour la famille et les 5-7 ans",
+    code: 1477201
+  },
+  {
+    category: "Films de Noël pour la famille et les 8-10 ans",
+    code: 1477204
+  },
+  {
+    category: "Films de Noël pour les familles",
+    code: 1394522
+  },
+  {
+    category: "Films européens de Noël pour enfants et familles",
+    code: 1527063
+  },
+  {
+    category: "Films romantiques de Noël",
+    code: 1394527
+  },
+  {
+    category: "Films de Noël pour enfants et familles des années ",
+    code: 19901476024
+  },
+  {
+    category: "Films romantiques de Noël",
+    code: 139452
   },
 ].sort((a, b) => a.category.localeCompare(b.category));

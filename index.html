@@ -9,7 +9,7 @@
   <!-- Use the Netflix https://www.netflix.com/favicon.ico -->
   <link rel="icon" href="https://www.netflix.com/favicon.ico">
   <title>Netflix Genre</title>
-  <!-- 
+  <!--
     This is simple page that offers a list of links and a search field.
     The link generated from the code are `https://www.netflix.com/browse/genre/{code}`.
   -->
@@ -20,7 +20,7 @@
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <h1 class="display-4">Chercher Netflix par genre</h1>
-      <p class="lead">  
+      <p class="lead">
         Cette page vous permet de trouver des liens vers des catégories de Netflix.
     </div>
   </div>
@@ -29,10 +29,16 @@
     <!-- Search section -->
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-8">
           <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Search for a link" id="search" v-model="search">
+            <input type="text" class="form-control" placeholder="Chercher une catégorie" id="search" v-model="search">
           </div>
+        </div>
+        <!-- Le nombre de liens -->
+        <div class="col-4">
+          <p class="lead">
+            {{ filteredList.length }} catégories trouvées.
+          </p>
         </div>
       </div>
     </div>
