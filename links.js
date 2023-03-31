@@ -725,4 +725,4 @@ browsedata =
     category: "Films d’horreur avec des zombies",
     code: 75405
   },
-];
+].sort((a, b) => a.category.localeCompare(b.category));
