@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Page avec des liens vers des catégories de Netflix.">
+  <meta name="keywords" content="Netflix, liens, catégories">
+  <title>Netflix Genre</title>
+  <!-- 
+    This is simple page that offers a list of links and a search field.
+    The link generated from the code are `https://www.netflix.com/browse/genre/{code}`.
+  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Title section using jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Search for a link</h1>
+      <p class="lead">  
+        This page provide category links for Netflix.
+    </div>
+  </div>
+  <!-- The #app -->
+  <div id="app">
+    <!-- Search section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search for a link" id="search" v-model="search">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Links section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <ul class="list-group" id="links">
+            <li class="list-group-item" v-for="link in filteredList">
+              <a :href="tourl(link.code)" target="_blank">{{ link.category }}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!-- the category codes -->
+  <script src="links.js"></script>
+  <!-- the main logic using VueJS -->
+  <script src="main.js"></script>
+</body>
+</html>
