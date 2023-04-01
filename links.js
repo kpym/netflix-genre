@@ -1,971 +1,980 @@
 // The category codes
 browsedata =
 [
-  // ----------------------
   {
-    category: "Comédies d’action",
-    code: 43040
+    category: "Films romantiques : Films d'amour incontournables (en: Romantic Movie : best romantic movies)",
+    code: 502675
   },
   {
-    category: "Action, SF et fantastique",
-    code: 1568
+    category: "Séries : british (en: TV series : British television series)",
+    code: 52117
   },
   {
-    category: "Thrillers d’action",
-    code: 43048
+    category: "Comédies culte (en: Cult Movies : cult comedy)",
+    code: 9434
   },
   {
-    category: "Animation pour adultes",
-    code: 11881
-  },
-  {
-    category: "Aventure",
-    code: 7442
-  },
-  {
-    category: "Films africains",
-    code: 3761
-  },
-  {
-    category: "Aliens et SF",
-    code: 3327
-  },
-  {
-    category: "Histoires d’animaux",
-    code: 5507
-  },
-  {
-    category: "Anime d’action",
-    code: 2653
-  },
-  {
-    category: "Anime comique",
-    code: 9302
-  },
-  {
-    category: "Anime dramatique",
-    code: 452
-  },
-  {
-    category: "Anime fantastique",
-    code: 11146
-  },
-  {
-    category: "Films d’animation japonaise",
-    code: 3063
-  },
-  {
-    category: "Anime d’horreur",
-    code: 10695
-  },
-  {
-    category: "Anime SF",
-    code: 2729
-  },
-  {
-    category: "Séries d’animation japonaise",
-    code: 6721
-  },
-  {
-    category: "Films et séries en arabe",
-    code: 107456
-  },
-  {
-    category: "Art et essai",
-    code: 29764
-  },
-  {
-    category: "Films d’action asiatiques",
-    code: 77232
-  },
-  {
-    category: "Films australiens",
-    code: 5230
-  },
-  {
-    category: "Films d’horreur de série B",
-    code: 8195
-  },
-  {
-    category: "Films sur le baseball",
-    code: 12339
-  },
-  {
-    category: "Films sur le basket",
-    code: 12762
-  },
-  {
-    category: "Films belges",
-    code: 262
-  },
-  {
-    category: "Documentaires biographiques",
-    code: 3652
-  },
-  {
-    category: "Drames biographiques",
-    code: 3179
-  },
-  {
-    category: "Films de Bollywood",
-    code: 5480
-  },
-  {
-    category: "Films de boxe",
-    code: 12443
+    category: "Musique : Comédies musicales (en: Music : musicals straight from the stage)",
+    code: 55774
   },
   {
     category: "Films et séries brésiliens",
     code: 100373
   },
   {
-    category: "Films british",
-    code: 10757
-  },
-  {
-    category: "Séries british",
-    code: 52117
-  },
-  {
-    category: "Films déjantés",
-    code: 1252
-  },
-  {
-    category: "Films et séries canadiens",
-    code: 107519
-  },
-  {
-    category: "Films de voitures",
-    code: 49944
-  },
-  {
-    category: "Films chinois",
-    code: 3960
-  },
-  {
-    category: "Action et aventures classiques",
-    code: 46576
-  },
-  {
-    category: "Comédies classiques",
-    code: 31694
-  },
-  {
-    category: "Drames classiques",
-    code: 29809
-  },
-  {
-    category: "Comédies musicales classiques",
-    code: 32392
-  },
-  {
-    category: "Classiques romantiques",
-    code: 31273
-  },
-  {
-    category: "SF et fantastique classiques",
-    code: 47147
-  },
-  {
-    category: "Thrillers classiques",
-    code: 46588
-  },
-  {
-    category: "Séries classiques",
-    code: 46553
-  },
-  {
-    category: "Films de guerre classiques",
-    code: 48744
-  },
-  {
-    category: "Westerns classiques",
-    code: 47465
-  },
-  {
-    category: "Films de B.D. et super-héros",
-    code: 10118
-  },
-  {
-    category: "Films de monstres et créatures surnaturelles",
-    code: 6895
-  },
-  {
-    category: "Policier d’action et d’aventure",
-    code: 9584
-  },
-  {
-    category: "Documentaires policiers",
-    code: 9875
-  },
-  {
-    category: "Drames policiers",
-    code: 6889
-  },
-  {
-    category: "Thrillers policiers",
-    code: 10499
-  },
-  {
-    category: "Séries policières",
-    code: 26146
-  },
-  {
-    category: "Comédies culte",
-    code: 9434
-  },
-  {
-    category: "Films d’horreur culte",
-    code: 10944
-  },
-  {
-    category: "SF et fantastique culte",
-    code: 4734
-  },
-  {
-    category: "Séries culte",
-    code: 74652
-  },
-  {
-    category: "Comédies dramatiques",
-    code: 869
-  },
-  {
-    category: "Films d’horreur sur les abysses",
-    code: 45028
-  },
-  {
-    category: "Disney",
-    code: 67673
-  },
-  {
-    category: "Comédies musicales Disney",
-    code: 59433
-  },
-  {
-    category: "Drames inspirés de livres",
-    code: 4961
-  },
-  {
-    category: "Drames inspirés de faits réels",
-    code: 3653
-  },
-  {
-    category: "Films néerlandais",
-    code: 10606
-  },
-  {
-    category: "Films d’Europe de l’Est",
-    code: 5254
-  },
-  {
-    category: "Educatif jeunesse",
-    code: 10659
-  },
-  {
-    category: "Epopées",
-    code: 52858
-  },
-  {
-    category: "Films expérimentaux",
-    code: 11079
-  },
-  {
-    category: "Films sur la foi et la spiritualité",
-    code: 52804
-  },
-  {
-    category: "Films pour la famille",
-    code: 51056
-  },
-  {
-    category: "Films fantastiques",
-    code: 9744
-  },
-  {
-    category: "Film noir",
-    code: 7687
-  },
-  {
-    category: "Émissions de cuisine et voyages",
-    code: 72436
-  },
-  {
-    category: "Films sur le football",
-    code: 12803
-  },
-  {
-    category: "Films français",
-    code: 58807
-  },
-  {
-    category: "Films de gangsters",
-    code: 31851
-  },
-  {
-    category: "Comédies LGBTQ",
-    code: 7120
-  },
-  {
-    category: "Documentaires LGBTQ",
-    code: 4720
-  },
-  {
-    category: "Drames LGBTQ",
-    code: 500
-  },
-  {
-    category: "Séries LGBTQ",
-    code: 65263
-  },
-  {
-    category: "Films allemands",
-    code: 58886
-  },
-  {
-    category: "Films d’horreur décalés",
-    code: 4021
-  },
-  {
-    category: "Films grecs",
-    code: 61115
-  },
-  {
-    category: "Documentaires historiques",
-    code: 5349
-  },
-  {
-    category: "Comédies d’horreur",
-    code: 89585
-  },
-  {
-    category: "Films d’action et d'aventure indépendants",
-    code: 11804
-  },
-  {
-    category: "Comédies indépendantes",
-    code: 4195
-  },
-  {
-    category: "Drames indépendants",
-    code: 384
-  },
-  {
-    category: "Thrillers indépendants",
-    code: 3269
-  },
-  {
-    category: "Films indiens",
-    code: 10463
-  },
-  {
-    category: "Films irlandais",
-    code: 58750
-  },
-  {
-    category: "Films italiens",
-    code: 8221
-  },
-  {
-    category: "Films japonais",
-    code: 10398
-  },
-  {
-    category: "Foi et spiritualité pour enfants",
-    code: 751423
-  },
-  {
-    category: "Musique pour les enfants",
-    code: 52843
-  },
-  {
-    category: "Pour enfants",
-    code: 27346
-  },
-  {
-    category: "Films coréens",
-    code: 5685
-  },
-  {
-    category: "Séries coréennes",
-    code: 67879
-  },
-  {
-    category: "Comédies de fin de soirée",
-    code: 1402
-  },
-  {
-    category: "Films d’Amérique latine",
-    code: 1613
-  },
-  {
-    category: "Musique d’Amérique latine",
-    code: 10741
-  },
-  {
-    category: "Films sur les arts martiaux",
-    code: 8985
-  },
-  {
-    category: "Arts martiaux, boxe et catch",
-    code: 6695
-  },
-  {
-    category: "Films du Moyen-Orient",
-    code: 5875
-  },
-  {
-    category: "Action et aventure sur l’armée",
-    code: 2125
-  },
-  {
-    category: "Documentaires sur l’armée",
-    code: 4006
-  },
-  {
-    category: "Drames sur l’armée",
-    code: 11
-  },
-  {
-    category: "Séries sur l’armée",
-    code: 25804
-  },
-  {
-    category: "Mini-séries",
-    code: 4814
-  },
-  {
-    category: "Mockumentaires",
-    code: 26
-  },
-  {
-    category: "Films de monstres",
-    code: 947
-  },
-  {
-    category: "Films inspirés de livres jeunesse",
-    code: 10056
-  },
-  {
-    category: "Documentaires musique et concerts",
-    code: 90361
-  },
-  {
-    category: "Comédies musicales",
-    code: 13335
-  },
-  {
-    category: "Intrigues",
-    code: 9994
-  },
-  {
-    category: "Films néo-zélandais",
-    code: 63782
-  },
-  {
-    category: "Films d’époque",
-    code: 12123
-  },
-  {
-    category: "Comédies politiques",
-    code: 2700
-  },
-  {
-    category: "Documentaires politiques",
-    code: 7018
-  },
-  {
-    category: "Drames politiques",
-    code: 6616
-  },
-  {
-    category: "Thrillers politiques",
-    code: 10504
-  },
-  {
-    category: "Romance excentrique",
-    code: 36103
-  },
-  {
-    category: "Téléréalité",
-    code: 9833
-  },
-  {
-    category: "Comédies romantiques",
-    code: 5475
-  },
-  {
-    category: "Drames romantiques",
-    code: 1255
-  },
-  {
-    category: "Films d’amour incontournables",
-    code: 502675
-  },
-  {
-    category: "Films LGBTQ romantiques",
-    code: 3329
-  },
-  {
-    category: "Films romantiques indépendants",
-    code: 9916
-  },
-  {
-    category: "Films russes",
-    code: 11567
-  },
-  {
-    category: "Histoires sataniques",
-    code: 6998
-  },
-  {
-    category: "Satires",
-    code: 4922
-  },
-  {
-    category: "Films scandinaves",
-    code: 9292
-  },
-  {
-    category: "Aventures de SF",
-    code: 6926
-  },
-  {
-    category: "Drames de SF",
-    code: 3916
-  },
-  {
-    category: "Films d’horreur et SF",
-    code: 1694
-  },
-  {
-    category: "Thrillers de SF",
-    code: 11014
-  },
-  {
-    category: "Docus sciences et nature",
-    code: 2595
-  },
-  {
-    category: "Emissions sciences et nature",
-    code: 52780
-  },
-  {
-    category: "Comédies farfelues",
-    code: 9702
-  },
-  {
-    category: "Drames sur les destins de stars",
-    code: 5012
-  },
-  {
-    category: "Comédies musicales sur les destins de stars",
-    code: 13573
-  },
-  {
-    category: "Films muets",
-    code: 53310
-  },
-  {
-    category: "Comédies burlesques",
-    code: 10256
-  },
-  {
-    category: "Films de slashers et tueurs en série",
-    code: 8646
-  },
-  {
-    category: "Films de football",
-    code: 12549
-  },
-  {
-    category: "Docus société et culture",
-    code: 3675
-  },
-  {
-    category: "Drames sociaux",
-    code: 3947
-  },
-  {
-    category: "Films d’Asie du Sud-Est",
-    code: 9196
-  },
-  {
-    category: "Films espagnols",
-    code: 58741
-  },
-  {
-    category: "Documentaires spiritualité",
-    code: 2760
-  },
-  {
-    category: "Sports et fitness",
+    category: "Films sportifs : Sport et fitness (en: Sports : fitness)",
     code: 9327
   },
   {
-    category: "Comédies sportives",
-    code: 5286
-  },
-  {
-    category: "Documentaires sportifs",
-    code: 180
-  },
-  {
-    category: "Drames sportifs",
-    code: 7243
-  },
-  {
-    category: "Action et aventures d’espionnage",
-    code: 10702
-  },
-  {
-    category: "Thrillers d’espionnage",
-    code: 9147
-  },
-  {
-    category: "Stage Musicals",
-    code: 55774
-  },
-  {
-    category: "Stand-up",
-    code: 11559
-  },
-  {
-    category: "Films romantiques torrides",
-    code: 35800
-  },
-  {
-    category: "Thrillers torrides",
-    code: 972
-  },
-  {
-    category: "Films d’horreur et surnaturel",
+    category: "Films d'horreur : et surnaturel (en: Horror : horror movies about strange phenomena)",
     code: 42023
   },
   {
-    category: "Thrillers surnaturels",
-    code: 11140
+    category: "Foi et spiritualité pour enfants (en: Faith and Spirituality : stimulating the development of spirituality in children)",
+    code: 751423
   },
   {
-    category: "Horreur et survie",
-    code: 2939659
+    category: "Documentaires : policiers (en: Documentaries : criminal documentaries)",
+    code: 9875
   },
   {
-    category: "Mélodrames",
-    code: 6384
+    category: "Documentaires : politiques (en: Documentaries : political documentaries)",
+    code: 7018
   },
   {
-    category: "Comédies pour ados",
-    code: 3519
+    category: "Animé : Satires (en: Comedy : satire)",
+    code: 4922
   },
   {
-    category: "Drames pour ados",
-    code: 9299
-  },
-  {
-    category: "Epouvante avec ados",
-    code: 52147
-  },
-  {
-    category: "Séries pour ados",
-    code: 60951
-  },
-  {
-    category: "Documentaires voyages et aventure",
+    category: "Documentaires : voyages et aventure (en: Documentaries : documentaries about the world’s athletes)",
     code: 1159
   },
   {
-    category: "Séries d’action et d’aventure",
-    code: 10673
-  },
-  {
-    category: "Dessins animés",
-    code: 11177
-  },
-  {
-    category: "Séries comiques",
-    code: 10375
-  },
-  {
-    category: "Séries documentaires",
-    code: 10105
-  },
-  {
-    category: "Séries dramatiques",
-    code: 11714
-  },
-  {
-    category: "Séries d’épouvante",
-    code: 83059
-  },
-  {
-    category: "Séries d’intrigue",
-    code: 4366
-  },
-  {
-    category: "Séries SF et fantastique",
-    code: 1372
-  },
-  {
-    category: "Films d’horreur avec des vampires",
-    code: 75804
-  },
-  {
-    category: "Werewolf Horror Movies",
-    code: 75930
-  },
-  {
-    category: "Westerns",
-    code: 7700
-  },
-  {
-    category: "Concerts de musiques du monde",
-    code: 2856
-  },
-  {
-    category: "Films d’horreur avec des zombies",
-    code: 75405
-  },
-  // ----------------------
-  {
-    category: "Documentaires : Religions",
-    code: 10005
-  },
-  {
-    category: "Thrillers : Étranger",
-    code: 10306
-  },
-  {
-    category: "Action & Adventure : Films d'action étrangers",
-    code: 11828
-  },
-  {
-    category: "Action & Adventure",
-    code: 1365
-  },
-  {
-    category: "SF & Fantasy",
-    code: 1492
-  },
-  {
-    category: "Drames : Etranger",
-    code: 2150
-  },
-  {
-    category: "Classic Movies",
-    code: 31574
-  },
-  {
-    category: "Classic Movies : Films étrangers",
-    code: 32473
-  },
-  {
-    category: "Comédies : Comédies étrangères",
-    code: 4426
-  },
-  {
-    category: "Documentaires : Étranger",
-    code: 5161
-  },
-  {
-    category: "Drames : Drames judiciares",
-    code: 528582748
-  },
-  {
-    category: "Jeunesse et films familiaux : 5 à 7 ans",
-    code: 5455
-  },
-  {
-    category: "Thrillers : Thrillers psychologiques",
-    code: 5505
-  },
-  {
-    category: "Jeunesse et films familiaux : 8 à 10 ans",
-    code: 561
-  },
-  {
-    category: "Drames",
-    code: 5763
-  },
-  {
-    category: "LGBTQ+",
-    code: 5977
-  },
-  {
-    category: "Jeunesse et films familiaux : 2 à 4 ans",
-    code: 6218
-  },
-  {
-    category: "SF & Fantasy : Étranger",
-    code: 6485
-  },
-  {
-    category: "Comédies",
-    code: 6548
-  },
-  {
-    category: "Jeunesse et films familiaux : 0 à 2 ans",
-    code: 6796
-  },
-  {
-    category: "Documentaires",
-    code: 6839
-  },
-  {
-    category: "Jeunesse et films familiaux : 11 à 12 ans",
-    code: 6962
-  },
-  {
-    category: "Animé",
-    code: 7424
-  },
-  {
-    category: "Films cultes",
-    code: 7627
-  },
-  {
-    category: "Jeunesse et films familiaux",
-    code: 783
-  },
-  {
-    category: "LGBTQ+ : Étranger",
-    code: 8243
-  },
-  {
-    category: "Séries télé",
-    code: 83
-  },
-  {
-    category: "Horreur : Étranger",
-    code: 8654
-  },
-  {
-    category: "Horreur",
-    code: 8711
-  },
-  {
-    category: "Thrillers",
-    code: 8933
-  },
-  // ----------------------
-    {
-    category: "Films de détournement d'avion",
+    category: "Action et aventure : Films de détournement d'avion",
     code: 20541
   },
   {
-    category: "Seulement sur Netflix",
-    code: 839338
+    category: "Films de Noël : pour la famille et les 8-10 ans",
+    code: 1477204
   },
   {
-    category: "Tous les films",
-    code: 34399
+    category: "Films internationaux : Films chinois (en: Movies from all over the world : Chinese movies)",
+    code: 3960
   },
   {
-    category: "Films indépendants",
-    code: 7077
+    category: "Thrillers : Intrigues (en: Thrillers : sensational thrillers)",
+    code: 9994
+  },
+  {
+    category: "Films internationaux : Films espagnols (en: Movies from all over the world : Spanish movies)",
+    code: 58741
+  },
+  {
+    category: "Documentaires : spiritualité (en: Faith and Spirituality : religious documentary)",
+    code: 2760
+  },
+  {
+    category: "Sports : sports dramas (en: Drama : sports dramas)",
+    code: 7243
+  },
+  {
+    category: "Séries : comiques (en: TV series : comedy series)",
+    code: 10375
+  },
+  {
+    category: "LGBT : LGBT films from all over the world (en: Movies from all over the world : films about the LGBT community from around the world)",
+    code: 8243
+  },
+  {
+    category: "Films d'horreur (en: Horror)",
+    code: 8711
+  },
+  {
+    category: "Documentaires : sur l'armée (en: Documentaries : war documentaries)",
+    code: 4006
   },
   {
     category: "Films internationaux",
     code: 78367
   },
   {
-    category: "Films et séries taïwanais",
-    code: 434295
+    category: "Horreur et survie",
+    code: 2939659
   },
   {
-    category: "Films et séries thaïlandais",
-    code: 107570
+    category: "Séries : Docu-séries (en: TV series : documentary series)",
+    code: 10105
   },
   {
-    category: "Films turcs",
-    code: 1133133
+    category: "Thrillers : d'espionnage (en: Thrillers : detective thrillers)",
+    code: 9147
   },
   {
-    category: "Films étrangers romantiques",
-    code: 7153
+    category: "Drames : inspirés de faits réels (en: Drama : real life dramas)",
+    code: 3653
   },
   {
-    category: "Films romantiques",
-    code: 8883
-  },
-  {
-    category: "Films sportifs",
-    code: 4370
-  },
-  {
-    category: "Musique",
-    code: 1701
-  },
-  {
-    category: "Concerts rock et pop",
-    code: 3278
-  },
-  {
-    category: "Danse et concerts urbains",
-    code: 9472
-  },
-  {
-    category: "Jazz et easy listening",
-    code: 10271
-  },
-  {
-    category: "Musique country et western / folk",
-    code: 1105
-  },
-  {
-    category: "Films britanniques de Noël pour enfants et familles",
-    code: 1527064
-  },
-  {
-    category: "Films canadiens de Noël pour enfants et familles",
-    code: 1721544
-  },
-  {
-    category: "Films de Noël bonne humeur jeunesse et famille",
-    code: 1475066
-  },
-  {
-    category: "Films de Noël jeunesse et famille",
-    code: 1474017
-  },
-  {
-    category: "Films de Noël loufoques jeunesse et famille",
+    category: "Films de Noël : loufoques jeunesse et famille",
     code: 1475071
   },
   {
-    category: "Films de Noël pour enfants et familles des années 1990",
+    category: "Drama : classic dramas (en: Classic Movies : classic dramas)",
+    code: 29809
+  },
+  {
+    category: "Drames : policiers (en: Drama : crime dramas)",
+    code: 6889
+  },
+  {
+    category: "Films sportifs : Arts martiaux, boxe et catch (en: Sports : martial arts, boxing and wrestling)",
+    code: 6695
+  },
+  {
+    category: "Thrillers : politiques (en: Thrillers : political thrillers)",
+    code: 10504
+  },
+  {
+    category: "Films classiques : Séries classiques (en: TV series : Classic series)",
+    code: 46553
+  },
+  {
+    category: "Comédies : politiques (en: Comedy : political comedies)",
+    code: 2700
+  },
+  {
+    category: "Films d'horreur : sur les loups-garous (en: Horror : werewolf horror movies)",
+    code: 75930
+  },
+  {
+    category: "Films de Noël : britanniques pour enfants et familles",
+    code: 1527064
+  },
+  {
+    category: "Drames : inspirés de livres (en: Drama : book-based dramas)",
+    code: 4961
+  },
+  {
+    category: "Documentaires : historiques (en: Documentaries : historical documentaries)",
+    code: 5349
+  },
+  {
+    category: "Séries : sur l'armée (en: TV series : TV series about the war)",
+    code: 25804
+  },
+  {
+    category: "Films jeunesse et famille : Films pour la famille (en: Family content : for family viewing)",
+    code: 51056
+  },
+  {
+    category: "Films internationaux : Films et séries thaïlandais",
+    code: 107570
+  },
+  {
+    category: "Films jeunesse et famille : Films inspirés de livres jeunesse (en: Family content : fairy tales from books)",
+    code: 10056
+  },
+  {
+    category: "Films internationaux : Films néerlandais (en: Movies from all over the world : Dutch films)",
+    code: 10606
+  },
+  {
+    category: "Drames : sur l'armée (en: Drama : war dramas)",
+    code: 11
+  },
+  {
+    category: "Films romantiques : Romance excentrique (en: Romantic Movie : fictional romantic movies)",
+    code: 36103
+  },
+  {
+    category: "Séries pour ados (en: TV series : TV series for teenagers)",
+    code: 60951
+  },
+  {
+    category: "Films internationaux : Films turcs",
+    code: 1133133
+  },
+  {
+    category: "Musique : country et western / folk (en: Music : country and western/folk)",
+    code: 1105
+  },
+  {
+    category: "Action et aventure : Films de B.D. et super-héros (en: Action & Adventure : superhero movies)",
+    code: 10118
+  },
+  {
+    category: "Films de voitures",
+    code: 49944
+  },
+  {
+    category: "Séries : dramatiques (en: TV series : drama series)",
+    code: 11714
+  },
+  {
+    category: "Films du monde entier : comedies from around the world (en: Comedy : comedies from around the world)",
+    code: 4426
+  },
+  {
+    category: "Action et aventure : Action, SF et fantastique (en: Sci-fi and Fantasy Films : sci-fi and fantastic action movies)",
+    code: 1568
+  },
+  {
+    category: "Séries : d'intrigue (en: TV series : action)",
+    code: 4366
+  },
+  {
+    category: "LGBTQ (en: LGBT)",
+    code: 5977
+  },
+  {
+    category: "Film romantique : romantic movies from all over the world (en: Movies from all over the world : romantic movies from all over the world)",
+    code: 7153
+  },
+  {
+    category: "Thrillers : action (en: Action & Adventure : thrillers)",
+    code: 43048
+  },
+  {
+    category: "Sci-fi and Fantasy Films : cult sci-fi and fantasy films (en: Cult Movies : cult sci-fi films and fantasy)",
+    code: 4734
+  },
+  {
+    category: "Drames : Drames judiciares",
+    code: 528582748
+  },
+  {
+    category: "Action et aventure : Comédies d'action (en: Action & Adventure : action movies – comedy)",
+    code: 43040
+  },
+  {
+    category: "Films internationaux : Films et séries taïwanais",
+    code: 434295
+  },
+  {
+    category: "Films classiques : Comédies musicales classiques (en: Music : classical musicals)",
+    code: 32392
+  },
+  {
+    category: "Films romantiques : torrides (en: Romantic Movie : sensual romantic movies)",
+    code: 35800
+  },
+  {
+    category: "Séries : d'épouvante (en: TV series : horror series)",
+    code: 83059
+  },
+  {
+    category: "Films internationaux : Films coréens (en: Movies from all over the world : Korean movies)",
+    code: 5685
+  },
+  {
+    category: "Films d’horreur décalés",
+    code: 4021
+  },
+  {
+    category: "Documentaires : musique et concerts (en: Documentaries : concerts and musical documentaries)",
+    code: 90361
+  },
+  {
+    category: "Action et aventure : étranger (en: Action & Adventure : action from all over the world)",
+    code: 11828
+  },
+  {
+    category: "Musique : Jazz et easy listening (en: Music : jazz and light music)",
+    code: 10271
+  },
+  {
+    category: "Sci-fi and Fantasy Films : classic sci-fi and fantasy movies (en: Classic Movies : classic sci-fi and fantasy movies)",
+    code: 47147
+  },
+  {
+    category: "Thrillers : independent thrillers (en: Independent Films : independent thrillers)",
+    code: 3269
+  },
+  {
+    category: "Films internationaux : Films italiens (en: Movies from all over the world : Italian movies)",
+    code: 8221
+  },
+  {
+    category: "Films internationaux : Films japonais (en: Movies from all over the world : Japanese movies)",
+    code: 10398
+  },
+  {
+    category: "Comédies : burlesques (en: Comedy : hyperbolic comedies)",
+    code: 10256
+  },
+  {
+    category: "Drames : sociaux (en: Drama : social dramas)",
+    code: 3947
+  },
+  {
+    category: "Films de Noël : pour enfants et familles des années",
     code: 1476024
   },
   {
-    category: "Films de Noël pour la famille et les 11-12 ans",
-    code: 1477206
+    category: "Animé : Films sur la foi et la spiritualité (en: Faith and Spirituality : religion)",
+    code: 52804
   },
   {
-    category: "Films de Noël pour la famille et les 5-7 ans",
-    code: 1477201
+    category: "Thrillers : surnaturels (en: Thrillers : strange thrillers)",
+    code: 11140
   },
   {
-    category: "Films de Noël pour la famille et les 8-10 ans",
-    code: 1477204
+    category: "Documentaires : biographiques (en: Documentaries : biographical documentaries)",
+    code: 3652
   },
   {
-    category: "Films de Noël pour les familles",
+    category: "Séries : pour enfants (en: Family content : TV for children)",
+    code: 27346
+  },
+  {
+    category: "Séries : Téléréalité (en: TV series : reality TV)",
+    code: 9833
+  },
+  {
+    category: "Films d'horreur : avec des vampires (en: Horror : horror movies about vampires)",
+    code: 75804
+  },
+  {
+    category: "Documentaires : religieux (en: Documentaries : religious documentaries)",
+    code: 10005
+  },
+  {
+    category: "SF et fantastique (en: Sci-fi and Fantasy Films)",
+    code: 1492
+  },
+  {
+    category: "Films de Noël : pour les familles",
     code: 1394522
   },
   {
-    category: "Films européens de Noël pour enfants et familles",
-    code: 1527063
+    category: "Films internationaux : Films africains (en: Movies from all over the world : movies from Africa)",
+    code: 3761
   },
   {
-    category: "Films romantiques de Noël",
-    code: 1394527
+    category: "SF et fantastique : Aventures de SF (en: Sci-fi and Fantasy Films : sci-fi adventures)",
+    code: 6926
   },
   {
-    category: "Films de Noël pour enfants et familles des années ",
-    code: 19901476024
+    category: "Mélodrames (en: Drama : melodrama)",
+    code: 6384
+  },
+  {
+    category: "Comédies : musicales (en: Music : musicals)",
+    code: 13335
+  },
+  {
+    category: "Films internationaux : Films indiens (en: Movies from all over the world : Indian movies)",
+    code: 10463
+  },
+  {
+    category: "Films internationaux : Films russes",
+    code: 11567
+  },
+  {
+    category: "Films internationaux : Films grecs (en: Movies from all over the world : Greek movies)",
+    code: 61115
+  },
+  {
+    category: "Films d'horreur : sur les abysses (en: Horror : sea ​​horror movies)",
+    code: 45028
+  },
+  {
+    category: "Films internationaux : Films néo-zélandais (en: Movies from all over the world : movies from New Zealand)",
+    code: 63782
+  },
+  {
+    category: "Drames : politiques (en: Drama : political dramas)",
+    code: 6616
+  },
+  {
+    category: "Films de Noël : pour la famille et les 11-12 ans",
+    code: 1477206
+  },
+  {
+    category: "Animé : Histoires d'animaux (en: Family content : stories about animals)",
+    code: 5507
+  },
+  {
+    category: "Drames : sur les destins de stars (en: Drama : dramas from the world of show business)",
+    code: 5012
+  },
+  {
+    category: "Séries : culte (en: TV series : iconic series)",
+    code: 74652
+  },
+  {
+    category: "Thrillers",
+    code: 8933
+  },
+  {
+    category: "Animé : Film noir (en: Classic Movies : film noir)",
+    code: 7687
+  },
+  {
+    category: "Films internationaux : Films irlandais (en: Movies from all over the world : Irish films)",
+    code: 58750
+  },
+  {
+    category: "Film romantique : romantic dramas (en: Drama : romantic dramas)",
+    code: 1255
+  },
+  {
+    category: "SF et fantastique : Films d'horreur et SF (en: Sci-fi and Fantasy Films : sci-fi horror)",
+    code: 1694
+  },
+  {
+    category: "Musique : Danse et concerts urbains (en: Music : street concerts and dances)",
+    code: 9472
+  },
+  {
+    category: "Foi et spiritualité (en: Faith and Spirituality)",
+    code: 26835
+  },
+  {
+    category: "Films de Bollywood",
+    code: 5480
+  },
+  {
+    category: "Musique : pour enfants (en: Family content : music for children)",
+    code: 52843
+  },
+  {
+    category: "Séries : Mini-séries (en: TV series : mini-series)",
+    code: 4814
+  },
+  {
+    category: "Séries : d'action et d'aventure (en: TV series : adventure & action)",
+    code: 10673
+  },
+  {
+    category: "Documentaires (en: Documentaries)",
+    code: 6839
+  },
+  {
+    category: "Anime : Tous les films",
+    code: 34399
+  },
+  {
+    category: "Animé : Films fantastiques (en: Sci-fi and Fantasy Films : science fiction movies)",
+    code: 9744
+  },
+  {
+    category: "LGBTQ : Documentaires LGBTQ (en: LGBT : LGBT documentaries)",
+    code: 4720
+  },
+  {
+    category: "Drames (en: Drama)",
+    code: 5763
+  },
+  {
+    category: "Films jeunesse et famille : Films pour les 11-12 ans (en: Family content : for 11-12 years old children)",
+    code: 6962
+  },
+  {
+    category: "Films classiques : Classiques romantiques (en: Romantic Movie : classic romance movies)",
+    code: 31273
+  },
+  {
+    category: "Action et aventure : Films d'action asiatiques (en: Action & Adventure : Asian action movies)",
+    code: 77232
+  },
+  {
+    category: "Films internationaux : Films australiens (en: Movies from all over the world : Australian films)",
+    code: 5230
+  },
+  {
+    category: "Action et aventure : sur l'armée (en: Action & Adventure : war movies)",
+    code: 2125
+  },
+  {
+    category: "Animé : Animation pour adultes (en: Anime : for adults)",
+    code: 11881
+  },
+  {
+    category: "Films jeunesse et famille : Films pour les 3-4 ans (en: Family content : for children from 2 to 4 years old)",
+    code: 6218
+  },
+  {
+    category: "Anime : Seulement sur Netflix",
+    code: 839338
   },
   {
     category: "Films romantiques de Noël",
     code: 139452
+  },
+  {
+    category: "Films internationaux : Films scandinaves (en: Movies from all over the world : Scandinavian movies)",
+    code: 9292
+  },
+  {
+    category: "Films jeunesse et famille : Films pour les 8-10 ans (en: Family content : for children from 8 to 10 years old)",
+    code: 561
+  },
+  {
+    category: "Musique : d'Amérique latine (en: Music : Latin American music)",
+    code: 10741
+  },
+  {
+    category: "Films indépendants : Comédies indépendantes (en: Independent Films : independent comedies)",
+    code: 4195
+  },
+  {
+    category: "Comédies : Mockumentaires (en: Comedy : mocking comedy)",
+    code: 26
+  },
+  {
+    category: "Films classiques : Westerns classiques (en: Classic Movies : classic westerns)",
+    code: 47465
+  },
+  {
+    category: "Film romantique : romantic comedy (en: Comedy : romantic comedy)",
+    code: 5475
+  },
+  {
+    category: "Films sportifs : Films de football (en: Sports : football (soccer))",
+    code: 12549
+  },
+  {
+    category: "Films internationaux : Films étrangers classiques (en: Classic Movies : classic films from around the world)",
+    code: 32473
+  },
+  {
+    category: "Films sportifs (en: Sports)",
+    code: 4370
+  },
+  {
+    category: "Séries : Émissions de cuisine et voyages (en: TV series : food & travel)",
+    code: 72436
+  },
+  {
+    category: "Films d'horreur : Films de slashers et tueurs en série (en: Horror : slasher and serial killers)",
+    code: 8646
+  },
+  {
+    category: "Animé : Stand-up (en: Comedy : comedy stand-up)",
+    code: 11559
+  },
+  {
+    category: "Documentaires : Docus sciences et nature (en: Documentaries : natural history documentaries)",
+    code: 2595
+  },
+  {
+    category: "Films cultes (en: Cult Movies)",
+    code: 7627
+  },
+  {
+    category: "Séries (en: TV series)",
+    code: 83
+  },
+  {
+    category: "Films de Noël : canadiens pour enfants et familles",
+    code: 1721544
+  },
+  {
+    category: "Séries : coréennes (en: TV series : Korean TV Series)",
+    code: 67879
+  },
+  {
+    category: "Films internationaux : Films d'Asie du Sud-Est (en: Movies from all over the world : Asian movies)",
+    code: 9196
+  },
+  {
+    category: "Séries : SF et fantastique (en: TV series : sci-fi & fantasy TV Series)",
+    code: 1372
+  },
+  {
+    category: "Action et aventure : Westerns (en: Action & Adventure : westerns)",
+    code: 7700
+  },
+  {
+    category: "Films de Noël : pour la famille et les 5-7 ans",
+    code: 1477201
+  },
+  {
+    category: "Films déjantés (en: Cult Movies : kitsch)",
+    code: 1252
+  },
+  {
+    category: "Films internationaux : Films du Moyen-Orient (en: Movies from all over the world : Central European films)",
+    code: 5875
+  },
+  {
+    category: "Films classiques : Films muets (en: Classic Movies : lyrical films)",
+    code: 53310
+  },
+  {
+    category: "Animé : d'action (en: Anime : action movies)",
+    code: 2653
+  },
+  {
+    category: "Films de Noël : jeunesse et famille",
+    code: 1474017
+  },
+  {
+    category: "Films de Noël : romantiques",
+    code: 1394527
+  },
+  {
+    category: "Films et séries canadiens",
+    code: 107519
+  },
+  {
+    category: "Films sportifs : Films de boxe (en: Sports : boxing)",
+    code: 12443
+  },
+  {
+    category: "Animé : Épopées (en: Classic Movies : epic movies)",
+    code: 52858
+  },
+  {
+    category: "Animé : Films expérimentaux (en: Independent Films : experimental films)",
+    code: 11079
+  },
+  {
+    category: "Animé : Films de gangsters (en: Thrillers : gangster movies)",
+    code: 31851
+  },
+  {
+    category: "Action et aventure : Films sur les arts martiaux (en: Action & Adventure : martial arts films)",
+    code: 8985
+  },
+  {
+    category: "Films et séries en arabe",
+    code: 107456
+  },
+  {
+    category: "Musique : Comédies musicales sur les destins de stars (en: Music : musicals in show business)",
+    code: 13573
+  },
+  {
+    category: "Sports : sports documentaries (en: Documentaries : documentaries about US athletes)",
+    code: 180
+  },
+  {
+    category: "Thrillers : torrides (en: Thrillers : sensual Thrillers)",
+    code: 972
+  },
+  {
+    category: "Comédies : pour ados (en: Comedy : comedy for teens)",
+    code: 3519
+  },
+  {
+    category: "Action et aventure (en: Action & Adventure)",
+    code: 1365
+  },
+  {
+    category: "Films internationaux : Films british (en: Movies from all over the world : British movies)",
+    code: 10757
+  },
+  {
+    category: "LGBTQ : Films LGBTQ romantiques (en: LGBT : LGBT romantic movies)",
+    code: 3329
+  },
+  {
+    category: "LGBTQ : Séries LGBTQ (en: LGBT : LGBT TV Series)",
+    code: 65263
+  },
+  {
+    category: "Films d'horreur : Films de monstres (en: Horror : monster videos)",
+    code: 947
+  },
+  {
+    category: "SF et fantastique : Drames de SF (en: Sci-fi and Fantasy Films : sci-fi dramas)",
+    code: 3916
+  },
+  {
+    category: "Films de monstres et créatures surnaturelles (en: Horror : horror movies about monsters)",
+    code: 6895
+  },
+  {
+    category: "Animé : dramatique (en: Anime : dramas)",
+    code: 452
+  },
+  {
+    category: "Animé : d'horreur (en: Anime : horror anime)",
+    code: 10695
+  },
+  {
+    category: "Films d'horreur : Épouvante avec ados (en: Horror : horror movies for teens)",
+    code: 52147
+  },
+  {
+    category: "Action et aventure : Aventure (en: Action & Adventure : adventure movies)",
+    code: 7442
+  },
+  {
+    category: "Drames : biographiques (en: Drama : biographical dramas)",
+    code: 3179
+  },
+  {
+    category: "Films classiques : Comédies classiques (en: Classic Movies : classic comedy)",
+    code: 31694
+  },
+  {
+    category: "LGBT : LGBT drama (en: Drama : dramas about the LGBT community)",
+    code: 500
+  },
+  {
+    category: "Films d'horreur : avec des zombies (en: Horror : horror movies about zombies)",
+    code: 75405
+  },
+  {
+    category: "Films jeunesse et famille : Films pour les 0-2 ans (en: Family content : for children from 0 to 2 years old)",
+    code: 6796
+  },
+  {
+    category: "Films sportifs : Films sur le baseball (en: Sports : baseball)",
+    code: 12339
+  },
+  {
+    category: "Films de Noël : bonne humeur jeunesse et famille",
+    code: 1475066
+  },
+  {
+    category: "Films de Noël : européens pour enfants et familles",
+    code: 1527063
+  },
+  {
+    category: "Animé : Histoires sataniques (en: Horror : satanic horror movies)",
+    code: 6998
+  },
+  {
+    category: "Films classiques : Films de guerre classiques (en: Classic Movies : classic war films)",
+    code: 48744
+  },
+  {
+    category: "Films internationaux : Films allemands (en: Movies from all over the world : German movies)",
+    code: 58886
+  },
+  {
+    category: "Films indépendants : Films d'action et d'aventure indépendants (en: Independent Films : independent action)",
+    code: 11804
+  },
+  {
+    category: "Musique : Concerts de musiques du monde (en: Music : big concerts)",
+    code: 2856
+  },
+  {
+    category: "Thrillers : world thrillers (en: Movies from all over the world : thrillers from all over the world)",
+    code: 10306
+  },
+  {
+    category: "Animé : comique (en: Anime : comedy anime)",
+    code: 9302
+  },
+  {
+    category: "Films internationaux : Films belges (en: Movies from all over the world : Belgian films)",
+    code: 262
+  },
+  {
+    category: "Films internationaux : Films français (en: Movies from all over the world : French movies)",
+    code: 58807
+  },
+  {
+    category: "LGBTQ : Comédies LGBTQ (en: LGBT : LGBT comedy)",
+    code: 7120
+  },
+  {
+    category: "Films jeunesse et famille (en: Family content)",
+    code: 783
+  },
+  {
+    category: "Musique : Concerts rock et pop (en: Music : rock/pop concerts)",
+    code: 3278
+  },
+  {
+    category: "Animé : Séries d'animation japonaise (en: Anime : series)",
+    code: 6721
+  },
+  {
+    category: "Horreur et survie : du monde entier (en: Movies from all over the world : horror movies from all over the world)",
+    code: 8654
+  },
+  {
+    category: "Thrillers : sci-fi thrillers (en: Sci-fi and Fantasy Films : sci-fi thrillers)",
+    code: 11014
+  },
+  {
+    category: "Films internationaux : Films d'Europe de l'Est (en: Movies from all over the world : films from Eastern Europe)",
+    code: 5254
+  },
+  {
+    category: "Comédies : d'horreur (en: Horror : funny horror movies)",
+    code: 89585
+  },
+  {
+    category: "Comédies : farfelues (en: Comedy : bizarre comedy)",
+    code: 9702
+  },
+  {
+    category: "Animé : Films d'animation japonaise (en: Anime : typical anime)",
+    code: 3063
+  },
+  {
+    category: "Thrillers : classic thrillers (en: Classic Movies : classic thrillers)",
+    code: 46588
+  },
+  {
+    category: "Animé (en: Anime)",
+    code: 7424
+  },
+  {
+    category: "Films sportifs : Films sur le basket (en: Sports : basketball)",
+    code: 12762
+  },
+  {
+    category: "Films jeunesse et famille : Éducatif jeunesse (en: Family content : educational films for children)",
+    code: 10659
+  },
+  {
+    category: "Séries : Émissions sciences et nature (en: TV series : science series)",
+    code: 52780
+  },
+  {
+    category: "Musique (en: Music)",
+    code: 1701
+  },
+  {
+    category: "Thrillers : policiers (en: Thrillers : criminal thrillers)",
+    code: 10499
+  },
+  {
+    category: "Sci-fi and Fantasy Films : foreign sci-fi films and fantasy (en: Movies from all over the world : sci-fi and fantasy films from all over the world)",
+    code: 6485
+  },
+  {
+    category: "Films jeunesse et famille : Films pour les 5-7 ans (en: Family content : for children from 5 to 7 years old)",
+    code: 5455
+  },
+  {
+    category: "Films sportifs : Films sur le football (en: Sports : American football)",
+    code: 12803
+  },
+  {
+    category: "Action et aventure : Policier d'action et d'aventure (en: Action & Adventure : criminal movies)",
+    code: 9584
+  },
+  {
+    category: "Horreur et survie : culte (en: Cult Movies : cult movies)",
+    code: 10944
+  },
+  {
+    category: "Comédies : dramatiques (en: Comedy : comedies with black humor)",
+    code: 869
+  },
+  {
+    category: "Comédies : de fin de soirée (en: Comedy : comedy for late night)",
+    code: 1402
+  },
+  {
+    category: "Films d’époque (en: Drama : costume dramas)",
+    code: 12123
+  },
+  {
+    category: "Film romantique : independent romantic movies (en: Independent Films : independent romantic movies)",
+    code: 9916
+  },
+  {
+    category: "Séries pour ados : Drames pour ados (en: Drama : teen dramas)",
+    code: 9299
+  },
+  {
+    category: "Animé : fantastique (en: Anime : fantasy anime)",
+    code: 11146
+  },
+  {
+    category: "Films du monde entier : dramas from around the world (en: Drama : dramas from around the world)",
+    code: 2150
+  },
+  {
+    category: "Films du monde entier : foreign action & adventure",
+    code: 11820
+  },
+  {
+    category: "Independent Films : independent dramas (en: Drama : independent dramas)",
+    code: 384
+  },
+  {
+    category: "Musique : Comédies musicales Disney (en: Music : Disney musicals)",
+    code: 59433
+  },
+  {
+    category: "Action et aventure : d'espionnage (en: Action & Adventure : detective films)",
+    code: 10702
+  },
+  {
+    category: "Films jeunesse et famille : Séries animées (en: Family content : TV cartoons)",
+    code: 11177
+  },
+  {
+    category: "Comédies (en: Comedy)",
+    code: 6548
+  },
+  {
+    category: "Films indépendants (en: Independent Films)",
+    code: 7077
+  },
+  {
+    category: "Films du monde entier : Russian movies",
+    code: 1156
+  },
+  {
+    category: "Animé : SF (en: Anime : sci-fi anime)",
+    code: 2729
+  },
+  {
+    category: "Films jeunesse et famille : Disney (en: Family content : Disney Movies and TV Series)",
+    code: 67673
+  },
+  {
+    category: "Films classiques (en: Classic Movies)",
+    code: 31574
+  },
+  {
+    category: "Thrillers : psychologiques (en: Thrillers : psychological thrillers)",
+    code: 5505
+  },
+  {
+    category: "Horreur et survie : B (en: Cult Movies : B-horror movies)",
+    code: 8195
+  },
+  {
+    category: "Séries : policières (en: TV series : Murder series)",
+    code: 26146
+  },
+  {
+    category: "Sports : sports comedies (en: Comedy : sports comedy)",
+    code: 5286
+  },
+  {
+    category: "Action et aventure : classiques (en: Action & Adventure : classic adventure cinema)",
+    code: 46576
+  },
+  {
+    category: "Animé : Art et essai (en: Movies from all over the world : artistic original film)",
+    code: 29764
+  },
+  {
+    category: "Films internationaux : Films d'Amérique latine (en: Movies from all over the world : Latin American films)",
+    code: 1613
+  },
+  {
+    category: "Documentaires : Docus société et culture (en: Documentaries : documentaries on cultural topics)",
+    code: 3675
+  },
+  {
+    category: "Films du monde entier : documentaries from all over the world (en: Documentaries : foreign documentaries)",
+    code: 5161
+  },
+  {
+    category: "Films romantiques (en: Romantic Movie)",
+    code: 8883
+  },
+  {
+    category: "Films du monde entier",
+    code: 7462
+  },
+  {
+    category: "SF et fantastique : Aliens et SF (en: Sci-fi and Fantasy Films : sci-fi movies with foreigners)",
+    code: 3327
   },
 ].sort((a, b) => a.category.localeCompare(b.category));
